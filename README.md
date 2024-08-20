@@ -35,6 +35,18 @@ The effect of UBP with $\kappa=10^{-14}$ on `gsplat`:
 ## Installation
 Installation process is similar to the main `gsplat` branch. Make sure to `pip install -r requirements.txt` under the examples directory.
 
+```
+这一部分是实际测试得到的环境参数。
+git clone git@github.com:onceness/SpotLessSplats.git --recursive
+cd SpotLessSplats
+conda env create --file environment.yml
+conda activate sls
+cd examples
+pip install -r requirements
+pip install notebook
+```
+
+
 ## Run Experiments
 You can run experiments with the robust masking as below:
 
